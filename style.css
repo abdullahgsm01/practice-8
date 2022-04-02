@@ -1,0 +1,168 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: #fff;
+}
+.header {
+	background: #34495e;
+}
+.header-img img {
+	width: 100%;
+	height: auto;
+}
+.service-area {
+	background: #0d6efd;
+}
+.service-top {
+	width: 55%;
+	background: #e67e22;
+	padding: 18px 43px 12px 16px;
+	border-radius: 0px 45px 45px 0;
+	color: white;
+      border-left: 5px solid #000;
+}
+.service-bottom {
+	width: 55%;
+	background: #1abc9c;
+	padding: 18px 43px 12px 16px;
+	border-radius: 45px 0px 0px 45px;
+	color: white;
+	text-align: end;
+      border-right: 5px solid #9943ae;
+      border-bottom: 3px solid #9943ae;
+}
+.flags-area {
+	background: #4d687a;
+}
+.bd-flag {
+	background: #008000;
+	width: 100%;
+	text-align: center;
+	padding: 66px 0;
+      border-radius:5px;
+      box-shadow: 3px 6px 22px rgba(231, 226, 226, 0.8);
+      }
+
+.bd-cercle {
+	width: 150px;
+	height: 150px;
+	background: #ff0000;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+}
+.en-flag {
+	background: #fff;
+	width: 100%;
+	height: 287px;
+      box-shadow: 3px 6px 22px rgba(231, 226, 226, 0.8);
+      position: relative;
+}
+.x-border {
+	width: 100%;
+	height: 33px;
+	background: #ff0000;
+	margin: 0px 0 -140px 0;
+	display: inline-block;
+}
+.y-border {
+	width: 33px;
+	height: 287px;
+	background: #ff0000;
+      position: absolute;
+      top: 0;
+      left: 250px;
+}
+.jp-flag{
+      background: #fff;
+	width: 100%;
+	text-align: center;
+	padding: 66px 0;
+      border: 3px solid #000;
+      border-radius: 5px;
+      box-shadow: 3px 6px 22px rgba(231, 226, 226, 0.8);
+}
+.jp-cercle{
+      width: 150px;
+	height: 150px;
+	background: #ff0000;
+	text-align: center;
+	display: inline-block;
+	border-radius: 50%;
+}
+.gr-flag{
+	width: 100%;
+      height: 296px;
+      box-shadow: 3px 6px 22px rgba(231, 226, 226, 0.8);
+}
+.gr-black{
+      background: #000000;
+      height:33.3%;
+      border-bottom:2px solid #fff;
+}
+.gr-red{
+      background: #ff0000;
+      height:33.3%;
+      border-bottom:2px solid #fff;
+}
+.gr-yellow{
+      background:#ffff00;
+      height:33.3%;
+}
+
+footer{
+      background: #198754;
+}
+
+/* responsive */
+/* practic purpose I am try to responsive */
+
+@media (max-width:1883px) {
+      .y-border {
+            left: 300px;
+        }
+}
+@media (max-width:1480px) {
+      .y-border {
+            left: 240px;
+        }
+}
+@media (max-width:1230px) {
+      .y-border {
+            left:155px ;
+        }
+      }
+@media (max-width:990px) {
+      .y-border {
+               left:630px ;
+        }
+}
+@media (max-width:744px) {
+      .y-border {
+               left:324px ;
+        }
+}
+@media (max-width:852px) {
+      .y-border {
+               left:460px ;
+        }
+}
+@media (max-width:700px) {
+      .y-border {
+               left:285px ;
+        }
+}
+@media (max-width:552px) {
+      .y-border {
+               left:200px ;
+        }
+}
+@media (max-width:757px) {
+      .service-top{
+            width: 100%;
+      }
+      .service-bottom {
+            width: 100%;
+      }
+}
